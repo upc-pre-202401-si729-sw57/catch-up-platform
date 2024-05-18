@@ -1,4 +1,4 @@
-package com.acme.catchup.platform.news.infrastructure.persistence.jpa;
+package com.acme.catchup.platform.news.infrastructure.persistence.jpa.repositories;
 
 import com.acme.catchup.platform.news.domain.model.aggregates.FavoriteSource;
 import org.springframework.data.jpa.repository.JpaRepository;

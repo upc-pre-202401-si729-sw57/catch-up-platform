@@ -5,7 +5,7 @@ import com.acme.catchup.platform.news.domain.model.queries.GetAllFavoriteSources
 import com.acme.catchup.platform.news.domain.model.queries.GetFavoriteSourceByIdQuery;
 import com.acme.catchup.platform.news.domain.model.queries.GetFavoriteSourceByNewsApiKeyAndSourceIdQuery;
 import com.acme.catchup.platform.news.domain.services.FavoriteSourceQueryService;
-import com.acme.catchup.platform.news.infrastructure.persistence.jpa.FavoriteSourceRepository;
+import com.acme.catchup.platform.news.infrastructure.persistence.jpa.repositories.FavoriteSourceRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
